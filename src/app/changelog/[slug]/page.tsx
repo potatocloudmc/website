@@ -1,6 +1,12 @@
 import { notFound } from "next/navigation";
 import { changelog } from "@/data/changelog";
 
+export async function generateStaticParams() {
+    return changelog.map((entry) => ({
+        slug: entry.slug
+    }));
+}
+
 export default function ChangelogDetail({ params }: { params: { slug: string } }) {
     const entry = changelog.find((e) => e.slug === params.slug);
     if (!entry) return notFound();

@@ -143,13 +143,33 @@ body {
 
 .hero {
   padding: 140px 0 80px;
+  min-height: auto;
+  display: flex;
+  align-items: center;
 }
 
-.hero-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+.hero-center .hero-content {
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.hero-center .hero-buttons {
+  justify-content: center;
+}
+
+.hero-left {
+  text-align: left;
+}
+
+.hero-center .hero-left {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  max-width: 820px;
+}
+
+.hero-center .hero-subtitle {
+  max-width: 680px;
 }
 
 .badge {
@@ -186,10 +206,9 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 20px;
-  color: var(--text-secondary);
-  margin-bottom: 32px;
-  line-height: 1.6;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-buttons {
@@ -531,6 +550,14 @@ body {
     gap: 40px;
   }
 
+  .hero-left {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
   .features-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -557,5 +584,12 @@ body {
     flex-direction: column;
     gap: 24px;
     text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -14,40 +14,30 @@ export default function Hero() {
     return (
         <>
 
-            <section className={"hero"}>
-                <div className={"container"}>
-                    <div className={"hero-content"}>
-                        <div className={"hero-left"}>
-                            <div className={"badge"}>
-                                <span className={"badge-dot"}></span>
-                                v1.4.1
-                            </div>
-
-                            <h1 className={"hero-title"}>PotatoCloud</h1>
-
-                            <p className={"hero-subtitle"}>
-                                A simple "cloud" system for Minecraft servers that is performant,
-                                customizable and made to be simple and easy to use
-                            </p>
-
-                            <div className={"hero-buttons"}>
-                                <a href={"https://github.com/potatocloudmc/potatocloud/releases/download/1.4.1/potatocloud-1.4.1.zip"} className={"btn-primary"}>
-                                    <Download /> Download
-                                </a>
-
-                                <a href={"https://github.com/potatocloudmc/potatocloud"} className={"btn-secondary"}>
-                                    <Github /> View on Github
-                                </a>
+            <section className="hero">
+                <div className="container">
+                    <div style={{ textAlign: 'center', maxWidth: '900px', margin: '0 auto'}}>
+                        <div className="hero-center">
+                            <div className="hero-left">
+                                <h1 className="hero-title">PotatoCloud</h1>
+                                <p className="hero-subtitle">
+                                    A simple "cloud" system for Minecraft servers that is performant, customizable and made to be simple and easy to use
+                                </p>
+                                <div className="hero-buttons" style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '32px' }}>
+                                    <a href="https://github.com/potatocloudmc/potatocloud/releases/download/1.4.1/potatocloud-1.4.1.zip" className="btn-primary">
+                                        <Download /> Download
+                                    </a>
+                                    <a href="https://github.com/potatocloudmc/potatocloud" className="btn-secondary">
+                                        <Github /> View on Github
+                                    </a>
+                                </div>
                             </div>
                         </div>
-
-                        <div className={"hero-right"}>
-                            <Terminal />
-                        </div>
-
                     </div>
+
                 </div>
             </section>
+
 
         </>
     )

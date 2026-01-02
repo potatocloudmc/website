@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
 
-        <main className={"min-h-screen bg-gradient-to-b from-minecraft-sky-light to-minecraft-sky"}>
+        <main className={"min-h-screen mx-auto"}>
 
             <Header />
 

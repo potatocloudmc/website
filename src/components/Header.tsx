@@ -19,9 +19,7 @@ export default function Header() {
                         </div>
 
                         <div className={"nav-links"}>
-                            <a href={"#features"}>Features</a>
                             <Link href={"/changelog"}>Changelogs</Link>
-                            <Link href={"/roadmap"}>Roadmap</Link>
                             <a href={"https://github.com/potatocloudmc"} target={"_blank"} className={"btn-primary"}><Github /> GitHub</a>
                         </div>
                     </div>

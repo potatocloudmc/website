@@ -7,8 +7,8 @@ export const metadata: Metadata = {
     keywords: ['minecraft', 'server', 'hosting', 'cloud', 'gaming'],
     authors: [{ name: 'PotatoCloud Team and LabyNoah' }],
     openGraph: {
-        title: 'PotatoCloud - Minecraft Server Hosting',
-        description: 'Die beste Minecraft Cloud für deine Server',
+        title: 'PotatoCloud - Minecraft CloudSystem',
+        description: 'Die beste Minecraft Cloud für deinen Minecraft Server',
         type: 'website',
     },
 }

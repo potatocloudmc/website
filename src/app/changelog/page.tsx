@@ -35,7 +35,7 @@ export default function ChangelogPage() {
                         <span className="section-badge">Changelog</span>
                         <h1 className="section-title">Releases</h1>
                         <p className="section-subtitle">
-                            Alle Versionen & Änderungen von PotatoCloud
+                            All Versions & Changes of PotatoCloud
                         </p>
                     </div>
 

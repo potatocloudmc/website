@@ -12,8 +12,8 @@ export type ChangelogEntry = {
 
 export const changelog: ChangelogEntry[] = [
     {
-        slug: "v3-0-0-pre-7",
-        version: "3.0.0-pre-7",
+        slug: "v1-4-1",
+        version: "1.4.1",
         date: "01. Januar 2026",
         author: "jirmjahu",
         summary: "Big structure changes",
@@ -22,18 +22,6 @@ export const changelog: ChangelogEntry[] = [
             "Refactored internal cloud architecture",
             "Improved module loading system",
             "New API base for future features",
-        ],
-    },
-    {
-        slug: "v3-0-0-pre-6-2",
-        version: "3.0.0-pre-6.2",
-        date: "20. November 2025",
-        author: "HttpMarco",
-        summary: "Important bugfix update for some platforms",
-        type: "patch",
-        changes: [
-            "Fixed startup crash on Linux",
-            "Resolved proxy disconnect issue",
         ],
     },
 ];

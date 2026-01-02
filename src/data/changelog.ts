@@ -15,7 +15,7 @@ export const changelog: ChangelogEntry[] = [
         slug: "v3-0-0-pre-7",
         version: "3.0.0-pre-7",
         date: "01. Januar 2026",
-        author: "HttpMarco",
+        author: "jirmjahu",
         summary: "Big structure changes",
         type: "minor",
         changes: [
